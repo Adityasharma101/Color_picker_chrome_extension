@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.main{
+    width: 500px;
+    
+}
+.c1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.headings{
+    flex-basis: 70%;
+   
+}
+
+.heading{
+    text-transform: capitalize;
+    margin:  1rem;
+
+}
+
+.grabBtnContainer{
+    height: 40px;
+    margin: 1.5rem 0;
+}
+
+
+.grabBtn {
+    margin: 1rem;
+    font-size: 0.8rem;
+    padding: 5px 20px;
+    border-radius:5px ;
+    border: 2px solid rgba(0,0,0,.7);
+    height: 50px;
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+    font-weight: bold;
+
+}
+
+.grabBtn:hover{
+    color: rgba(166, 146, 146, 0.81);
+    border: 2px solid  rgba(166, 146, 146, 0.81);
+}
+
+.grabBtn img{
+  height: 12px;
+
+   
+}
+
+
+.colorSelected{
+    flex-basis:30% ;
+        position: relative;
+}
+
+.selected{
+    position: absolute;
+    top: 50%;
+    left: -25%;
+    transform: translate(-50%, -50%);
+    transform:rotate(-90deg);
+    color: rgba(166, 146, 146, 0.81);
+    font-weight: bold;
+
+
+}
+
+.colorValue{
+    position: absolute;
+    top: 10%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 80%;
+    width: 90%;
+}
+
+
+.colorCode{
+    display:block;
+    margin: 5px;
+    padding :5px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+
+
+.c2{
+    margin-left: 1rem;
+    display: flex;
+ 
+}
+.subHeading{
+    text-transform: capitalize;
+    font-weight:600;
+    
+}
+
+.c2 .deleteBtn{
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    display: block;
+    height: 20px;
+    width: 20px;
+ 
+
+}
+
+.deleteBtn img{
+    width: 100%;
+}
+
+
+.colors{ 
+    margin-left: 1rem;
+    display: flex;
+
+}
+
+.colorBlock{
+    margin-right:  5px;
+    display: block;
+    height: 20px ;
+    width: 20px;
+    border: 1px solid black;
+}
+

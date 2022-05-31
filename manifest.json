@@ -1,0 +1,25 @@
+{
+    "name":"color picker",
+    "description":"A easy color picker",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"/client/background.js"
+    },
+  
+    "action":{
+        "default_popup":"/client/popup.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    
+    "icons":{
+        "16":"/client/images/color_picker_16.png",
+        "32":"/client/images/color_picker_32.png",
+        "48":"/client/images/color_picker_48.png",
+        "128":"/client/images/color_picker_128.png"
+    }
+}
